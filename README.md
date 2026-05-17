@@ -61,7 +61,7 @@ pip / conda
 Jupyter Notebook or JupyterLab
 
 Step 1 — Clone the Repository
-bashgit clone https://github.com/YOUR_USERNAME/KNN-Diabetes-Prediction-System.git
+bashgit clone https://github.com/safrz110/KNN-Diabetes-Prediction-System.git
 cd KNN-Diabetes-Prediction-System
 Step 2 — Create a Virtual Environment
 bash# Using venv
@@ -99,15 +99,15 @@ Zero Imputation: Biologically invalid zero values in Glucose, BloodPressure, Ski
 
 
 Applications
-🏥 Clinical Decision Support
+ Clinical Decision Support
 Assist healthcare providers in flagging high-risk patients for further glucose testing, reducing time to diagnosis in primary care settings.
-📊 Population Health Screening
+ Population Health Screening
 Deploy as a batch scoring tool on anonymized patient records to identify at-risk cohorts for preventive intervention programs.
-🔬 Medical Research
+ Medical Research
 Use the engineered features (Risk Score, Glucose×BMI) as a baseline feature set for more advanced models such as Random Forest or XGBoost in diabetes research.
-🎓 Educational Resource
+ Educational Resource
 A clean, well-commented KNN pipeline for students learning supervised classification, feature engineering, and model evaluation in Python.
-📱 Health App Integration
+ Health App Integration
 Embed the trained model (exported via Joblib) into a mobile or web health application where users input their biometrics to receive a risk assessment.
 
 Roadmap
